@@ -1,14 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import { Router, RouteComponentProps } from '@reach/router'
-
 import Layout from 'components/layout'
+import Nav from 'components/nav'
 import Image from '../components/image'
 import SEO from '../components/seo'
-
-const Page2: React.FC<RouteComponentProps> = () => (
-  <div>{`This is page 2's content`}</div>
-)
 
 const IndexPage = () => (
   <Layout>
@@ -19,11 +13,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Router>
-      <Page2 path="page-2" />
-    </Router>
-    <Link to="/">Go to home</Link>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Nav />
   </Layout>
 )
 
