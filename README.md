@@ -8,9 +8,10 @@
   Gatsby TypeScript hybrid starter
 </h1>
 
-This starter is based on the [Gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-default), but with the following features added in:
+This starter is a clone of the [Gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-default), but with the following features added in:
 
 - TypeScript
 - `styled-components`
 - Client-side routing with `@reach/router` and `gatsby-plugin-create-client-paths`
 - `gatsby-plugin-resolve-src` for nicer imports
+- `eslint`

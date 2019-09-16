@@ -1,9 +1,9 @@
 {
   "name": "gatsby-typescript-hybrid-starter",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Gatsby starter with TypeScript, styled-components and dynamic routing",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ciaran Edwards <ciaran.edwards@live.com>",
   "dependencies": {
     "@reach/router": "^1.2.1",
     "@types/node": "^12.7.5",
@@ -45,7 +45,6 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
     "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
     "start": "npm run develop",
     "serve": "gatsby serve",
