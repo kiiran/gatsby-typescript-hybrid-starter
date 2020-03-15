@@ -6,12 +6,12 @@
   "author": "Ciaran Edwards <ciaran.edwards@live.com>",
   "dependencies": {
     "@reach/router": "^1.2.1",
-    "@types/node": "^12.7.5",
+    "@types/node": "^13.9.1",
     "@types/reach__router": "^1.2.4",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "@types/react-helmet": "^5.0.8",
-    "@types/styled-components": "^4.1.15",
+    "@types/styled-components": "^5.0.1",
     "gatsby": "^2.15.14",
     "gatsby-image": "^2.1.1",
     "gatsby-plugin-create-client-paths": "^2.0.5",
@@ -27,13 +27,13 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
-    "styled-components": "^4.2.0",
+    "styled-components": "^5.0.1",
     "typescript": "^3.6.3"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
-    "@typescript-eslint/parser": "^1.9.0",
-    "eslint-config-prettier": "^4.3.0",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
     "prettier": "^1.17.1"
