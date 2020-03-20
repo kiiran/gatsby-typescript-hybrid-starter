@@ -48,7 +48,8 @@
     "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "typecheck": "tsc -p ./tsconfig.json"
   },
   "repository": {
     "type": "git",

@@ -55,10 +55,9 @@ module.exports = {
       'error',
       { ignoreRestSiblings: true, argsIgnorePattern: '^_' },
     ],
-    '@typescript-eslint/explicit-function-return-type': [
-      { allowTypedFunctionExpressions: true },
-    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': [
+      'error',
       { accessibility: 'no-public' },
     ],
   },
