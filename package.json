@@ -24,7 +24,7 @@
     "gatsby-plugin-typescript": "^2.2.5",
     "gatsby-source-filesystem": "^2.1.57",
     "gatsby-transformer-sharp": "^2.3.19",
-    "react": "^16.9.0",
+    "react": "^16.13.1",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
     "styled-components": "^5.0.1",
