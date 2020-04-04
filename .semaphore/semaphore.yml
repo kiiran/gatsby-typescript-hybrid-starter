@@ -23,16 +23,17 @@ blocks:
       jobs:
         - name: Lint
           commands:
-            - checkout
             - npm run lint
         - name: Tests
           commands:
-            - checkout
             - npm run test
         - name: Type-check
           commands:
-            - checkout
             - npm run typecheck
+      prologue:
+        commands:
+          - checkout
+          - cache restore
   - name: Build
     dependencies:
       - Checks
