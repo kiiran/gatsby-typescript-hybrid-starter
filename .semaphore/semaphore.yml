@@ -44,3 +44,8 @@ blocks:
           commands:
             - checkout
             - npm run build
+      prologue:
+        commands:
+          - checkout
+          - sem-version node 12
+          - cache restore
