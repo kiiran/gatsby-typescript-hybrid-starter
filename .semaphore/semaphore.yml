@@ -1,21 +1,44 @@
 version: v1.0
-name: Test TS Hybrid Starter
+name: All tests
 agent:
   machine:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: Test
+  - name: Install dependencies
     task:
       jobs:
-        - name: Test
+        - name: npm i
           commands:
             - checkout
             - sem-version node 12
             - cache restore
             - npm install
             - cache store
+    dependencies: []
+  - name: Checks
+    dependencies:
+      - Install dependencies
+    task:
+      jobs:
+        - name: Lint
+          commands:
+            - checkout
             - npm run lint
+        - name: Tests
+          commands:
+            - checkout
+            - npm run test
+        - name: Type-check
+          commands:
+            - checkout
             - npm run typecheck
-            - npm test
-            - npm run build --if-present
+  - name: Build
+    dependencies:
+      - Checks
+    task:
+      jobs:
+        - name: Build
+          commands:
+            - checkout
+            - npm run build
