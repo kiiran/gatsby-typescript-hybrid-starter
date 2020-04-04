@@ -42,7 +42,6 @@ blocks:
       jobs:
         - name: Build
           commands:
-            - checkout
             - npm run build
       prologue:
         commands:
