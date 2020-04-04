@@ -33,6 +33,7 @@ blocks:
       prologue:
         commands:
           - checkout
+          - sem-version node 12
           - cache restore
   - name: Build
     dependencies:
