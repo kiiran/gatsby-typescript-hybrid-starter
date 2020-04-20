@@ -6,7 +6,7 @@
   "author": "Ciaran Edwards <ciaran.edwards@live.com>",
   "dependencies": {
     "@reach/router": "^1.2.1",
-    "@types/node": "^13.11.1",
+    "@types/node": "^13.13.0",
     "@types/reach__router": "^1.3.4",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
