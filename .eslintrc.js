@@ -47,10 +47,6 @@ module.exports = {
         },
       },
     ],
-    '@typescript-eslint/camelcase': [
-      'error',
-      { properties: 'never', ignoreDestructuring: true },
-    ],
     '@typescript-eslint/no-unused-vars': [
       'error',
       { ignoreRestSiblings: true, argsIgnorePattern: '^_' },
