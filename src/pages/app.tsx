@@ -11,7 +11,7 @@ const AppPage2: React.FC<RouteComponentProps> = () => (
   </div>
 )
 
-const App = () => (
+const App: React.FC = () => (
   <Layout>
     <SEO title="App" />
     <h1>The app</h1>

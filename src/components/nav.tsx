@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Nav = () => {
+const Nav: React.FC = () => {
   return (
     <ul>
       <li>

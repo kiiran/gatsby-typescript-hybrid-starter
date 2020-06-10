@@ -4,7 +4,7 @@ import Nav from 'components/nav'
 import Image from '../components/image'
 import SEO from '../components/seo'
 
-const IndexPage = () => (
+const IndexPage: React.FC = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
