@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Ciaran Edwards <ciaran.edwards@live.com>",
   "dependencies": {
-    "@reach/router": "^1.2.1",
+    "@reach/router": "^1.3.4",
     "@types/node": "^14.0.14",
     "@types/reach__router": "^1.3.5",
     "@types/react": "^16.9.41",
