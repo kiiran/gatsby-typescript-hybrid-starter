@@ -22,7 +22,7 @@
     "gatsby-plugin-sharp": "^2.6.39",
     "gatsby-plugin-styled-components": "^3.3.13",
     "gatsby-plugin-typescript": "^2.4.21",
-    "gatsby-source-filesystem": "^2.3.33",
+    "gatsby-source-filesystem": "^2.3.34",
     "gatsby-transformer-sharp": "^2.5.17",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
