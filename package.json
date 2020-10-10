@@ -20,7 +20,7 @@
     "gatsby-plugin-react-helmet": "^3.3.13",
     "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-plugin-sharp": "^2.6.40",
-    "gatsby-plugin-styled-components": "^3.3.13",
+    "gatsby-plugin-styled-components": "^3.3.14",
     "gatsby-plugin-typescript": "^2.4.21",
     "gatsby-source-filesystem": "^2.3.34",
     "gatsby-transformer-sharp": "^2.5.17",
