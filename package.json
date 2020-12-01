@@ -28,7 +28,7 @@
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.2.1",
-    "typescript": "^3.9.7"
+    "typescript": "^4.1.2"
   },
   "devDependencies": {
     "@bundle-analyzer/gatsby-plugin": "^0.5.1",
