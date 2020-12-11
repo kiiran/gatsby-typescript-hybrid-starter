@@ -1,0 +1,7 @@
+requiredLabels:
+- "auto-merge"
+blockingTitleRegex: '\bWIP\b'
+mergeMethod: squash
+blockingLabels:
+- blocked
+- DO NOT MERGE
