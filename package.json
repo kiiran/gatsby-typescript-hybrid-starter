@@ -11,7 +11,7 @@
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "@types/react-helmet": "^6.1.0",
-    "@types/styled-components": "^5.1.9",
+    "@types/styled-components": "^5.1.15",
     "gatsby": "^2.32.11",
     "gatsby-image": "^3.1.0",
     "gatsby-plugin-create-client-paths": "^2.10.0",
